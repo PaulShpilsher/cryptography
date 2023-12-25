@@ -7,7 +7,7 @@
 
 import { ripemd160 } from 'ethereum-cryptography/ripemd160';
 import { utf8ToBytes, bytesToHex } from 'ethereum-cryptography/utils';
-import loremIpsum from './lorem-ipsum.js';
+import loremIpsum from '../lorem-ipsum.js';
 
 
 const hash = ripemd160(utf8ToBytes(loremIpsum));

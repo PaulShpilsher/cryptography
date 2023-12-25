@@ -6,7 +6,7 @@
  */
 import { keccak256 } from 'ethereum-cryptography/keccak';
 import { utf8ToBytes, bytesToHex } from 'ethereum-cryptography/utils';
-import loremIpsum from './lorem-ipsum.js';
+import loremIpsum from '../lorem-ipsum.js';
 
 
 const hash = keccak256(utf8ToBytes(loremIpsum));

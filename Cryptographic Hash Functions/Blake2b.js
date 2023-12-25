@@ -5,7 +5,7 @@
 
 import { blake2b } from 'ethereum-cryptography/blake2b';
 import { utf8ToBytes, bytesToHex } from 'ethereum-cryptography/utils';
-import loremIpsum from './lorem-ipsum.js';
+import loremIpsum from '../lorem-ipsum.js';
 
 
 const hash = blake2b(utf8ToBytes(loremIpsum));
