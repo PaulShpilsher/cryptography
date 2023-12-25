@@ -14,3 +14,4 @@ Some of the important properties of cryptographic hash functions are listed belo
 - Uniform distribution: The probability of a hash value is the same as any other for a range of inputs
 - Collision resistance: No two different inputs yield the same hash
 - Immutable: It is computationally infeasible to modify a message without its hash value being changed
+
