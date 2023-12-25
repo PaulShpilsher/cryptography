@@ -1,4 +1,5 @@
 # CSPRNG (Cryptographically strong pseudorandom number generator)
+
 Cryptographically strong pseudorandom number generator (CSPRNG) generates pseudorandom numbers bearing  properties suitable for cryptographic usage. 
 
 The security strength of the cryptographic systems heavily resides on the properties of these CSPRNGs.  
